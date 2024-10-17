@@ -16,3 +16,10 @@ X Exiting due to HOST_VIRT_UNAVAILABLE: Failed to start host: creating host: cre
 * Related issues:
   - https://github.com/kubernetes/minikube/issues/3900
   - https://github.com/kubernetes/minikube/issues/4730
+
+# Solutions of this errors
+in your system is virtualization is already enabled, and by this error we can understand that our minikube is checking the virtualization so we have to disabled this we don't need to check it so for this use --no-vtx-check option
+
+# minikube start --driver virtualbox --no-vtx-check 
+this command might resolve this issue
+![image](https://github.com/user-attachments/assets/23ed8729-1fad-4102-952c-ea4214f388e8)
