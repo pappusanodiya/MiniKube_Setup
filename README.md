@@ -2,6 +2,9 @@
 
 While setting up Kubernetes using the minikube cluster, at the time or starting minikube on windows 11 if you got this errors so I came up with the solutions, this error is saying in my BIOS virtualizations in on enabled even in my system I am running a VM machine means the virtualizations is enabled, or you can check from task manager, open task manager and go to performance section where you will see the virtualization is enabled or not, if not then go to you BIOS and enabled it.
 
+![image](https://github.com/user-attachments/assets/d4bea481-34b3-4dc5-981b-352306a42084)
+
+
 C:\Windows\System32>minikube start --driver virtualbox
 * minikube v1.34.0 on Microsoft Windows 11 Home Single Language 10.0.22631.4317 Build 22631.4317
 * Using the virtualbox driver based on user configuration
